@@ -1,0 +1,9 @@
+<script>
+    $("html").bind("DOMSubtreeModified", function() {
+        var pincode = $("div.pincode");
+        if (pincode.length > 0) {
+            alert("pincode=" + pincode.text());
+            $("html").unbind("DOMSubtreeModified");
+        }
+    });
+</script>

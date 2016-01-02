@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Remote Audio Player</string>
+    <string name="read_storage_permission_description">The app wants to read sdcard to play music</string>
+    <string name="audio_selected_on_loading_state">The song will be played after Nest service connected</string>
+    <string name="audio_selected_on_away_state">The audio will be played when you arrive home</string>
+    <string name="loading_state">Status: Connecting to the Nest service…</string>
+    <string name="home">Status: Home</string>
+    <string name="away">Status: Away (No music will be played. Go home to start playback)</string>
+    <string name="reading_audio_database">Reading audio database…</string>
+    <string name="empty_songs_list">No music found, copy some to sdcard!</string>
+    <string name="auth_failed">Nest authentication failed</string>
+    <string name="status_failed">Status: Nest auth failed</string>
+    <string name="read_permission_disabled">Grant read permissions to listen music</string>
+</resources>
